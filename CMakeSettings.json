@@ -4,7 +4,7 @@
       "name": "Debug",
       "generator": "Ninja",
       "configurationType": "Debug",
-      "inheritEnvironments": [ "msvc_x64_x64" ],
+      "inheritEnvironments": [ "msvc_x86" ],
       "buildRoot": "${projectDir}\\build\\windows\\debug",
       "installRoot": "${projectDir}\\build\\install"
     },
@@ -12,7 +12,7 @@
       "name": "Release",
       "generator": "Ninja",
       "configurationType": "Release",
-      "inheritEnvironments": [ "msvc_x64_x64" ],
+      "inheritEnvironments": [ "msvc_x86" ],
       "buildRoot": "${projectDir}\\build\\windows\\release",
       "installRoot": "${projectDir}\\build\\install"
     }
